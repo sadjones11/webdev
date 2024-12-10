@@ -1,0 +1,75 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Clean and modern font */
+    background-color: #F8E9D5; /* Antique White for a cozy base */
+    color: #031C34; /* Maastricht Blue for text */
+  }
+  
+  /* Background and Header */
+  body {
+    background-image: linear-gradient(to bottom, #057399, #83A8C3); /* Gradient of Sea Blue to Pewter Blue */
+    background-attachment: fixed; /* Mimics the vastness of mountains */
+    background-size: cover;
+  }
+  
+  header {
+    background-color: #39455B; /* Deep steel blue for contrast */
+    color: #F8E9D5; /* Antique White for text on dark background */
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #4281A5; /* Steel Blue for a pop of color */
+    color: #F8E9D5;
+    border: none;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #031C34; /* Darker shade for hover effect */
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 2rem;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+  }
+  
+  section p {
+    line-height: 1.6;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #031C34; /* Deep blue for footer */
+    color: #F8E9D5;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Optional Decorative Elements */
+  .mountain-divider {
+    width: 100%;
+    height: auto;
+    background-image: url('mountain-divider.png'); /* Add a mountain silhouette image here */
+  }

@@ -1,0 +1,23 @@
+body{ font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: left;
+    margin-bottom: 10px;
+}
+/* anchors  */
+
+
+    /* Make text lighter */
+    .text-white {
+        color: white; /* Light gray (adjust lightness as needed) */
+    }
+
+    /* Align text to the left */
+    ul {
+        text-align: left;
+    }
+
+    /* Optional: Add some spacing for better readability */
+    ul li {
+        margin-bottom: 10px;
+    }
+
